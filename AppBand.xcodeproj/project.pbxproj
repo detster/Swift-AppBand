@@ -13,6 +13,17 @@
 		AD263DF8260C2DF200041E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD263DF6260C2DF200041E38 /* Main.storyboard */; };
 		AD263DFA260C2DF500041E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD263DF9260C2DF500041E38 /* Assets.xcassets */; };
 		AD263DFD260C2DF500041E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD263DFB260C2DF500041E38 /* LaunchScreen.storyboard */; };
+		AD263E0A260C52AA00041E38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263E09260C52AA00041E38 /* ProfileViewController.swift */; };
+		AD263E0E260C53A900041E38 /* DiscografiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263E0D260C53A900041E38 /* DiscografiaViewController.swift */; };
+		AD263E11260C53CB00041E38 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263E10260C53CB00041E38 /* TriviaViewController.swift */; };
+		AD263E14260C53E400041E38 /* ResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263E13260C53E400041E38 /* ResultadosViewController.swift */; };
+		AD263E17260C53FB00041E38 /* SouvenirsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263E16260C53FB00041E38 /* SouvenirsViewController.swift */; };
+		AD263E1A260C540F00041E38 /* CompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263E19260C540F00041E38 /* CompraViewController.swift */; };
+		AD45FFE6260DBBBE0014C6DC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45FFE5260DBBBE0014C6DC /* CustomTableViewCell.swift */; };
+		AD45FFE9260DC40E0014C6DC /* CustomDiscografiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45FFE8260DC40E0014C6DC /* CustomDiscografiaTableViewCell.swift */; };
+		AD45FFEC260DC42B0014C6DC /* CustomTriviaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45FFEB260DC42B0014C6DC /* CustomTriviaTableViewCell.swift */; };
+		AD45FFEF260DC45B0014C6DC /* CustomSouvenirsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45FFEE260DC45B0014C6DC /* CustomSouvenirsTableViewCell.swift */; };
+		AD45FFF2260DC4790014C6DC /* CustomCompraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45FFF1260DC4790014C6DC /* CustomCompraTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		AD263DF9260C2DF500041E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD263DFC260C2DF500041E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD263DFE260C2DF500041E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD263E09260C52AA00041E38 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AD263E0D260C53A900041E38 /* DiscografiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscografiaViewController.swift; sourceTree = "<group>"; };
+		AD263E10260C53CB00041E38 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		AD263E13260C53E400041E38 /* ResultadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadosViewController.swift; sourceTree = "<group>"; };
+		AD263E16260C53FB00041E38 /* SouvenirsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouvenirsViewController.swift; sourceTree = "<group>"; };
+		AD263E19260C540F00041E38 /* CompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraViewController.swift; sourceTree = "<group>"; };
+		AD45FFE5260DBBBE0014C6DC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		AD45FFE8260DC40E0014C6DC /* CustomDiscografiaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDiscografiaTableViewCell.swift; sourceTree = "<group>"; };
+		AD45FFEB260DC42B0014C6DC /* CustomTriviaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTriviaTableViewCell.swift; sourceTree = "<group>"; };
+		AD45FFEE260DC45B0014C6DC /* CustomSouvenirsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSouvenirsTableViewCell.swift; sourceTree = "<group>"; };
+		AD45FFF1260DC4790014C6DC /* CustomCompraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCompraTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,9 @@
 		AD263DEF260C2DF100041E38 /* AppBand */ = {
 			isa = PBXGroup;
 			children = (
+				AD263E0C260C52D100041E38 /* souvenirs */,
+				AD263E07260C4E9900041E38 /* trivia */,
+				AD263E05260C4E8A00041E38 /* banda */,
 				AD263DF0260C2DF200041E38 /* AppDelegate.swift */,
 				AD263DF2260C2DF200041E38 /* SceneDelegate.swift */,
 				AD263DF4260C2DF200041E38 /* ViewController.swift */,
@@ -65,6 +90,38 @@
 				AD263DFE260C2DF500041E38 /* Info.plist */,
 			);
 			path = AppBand;
+			sourceTree = "<group>";
+		};
+		AD263E05260C4E8A00041E38 /* banda */ = {
+			isa = PBXGroup;
+			children = (
+				AD263E09260C52AA00041E38 /* ProfileViewController.swift */,
+				AD263E0D260C53A900041E38 /* DiscografiaViewController.swift */,
+				AD45FFE5260DBBBE0014C6DC /* CustomTableViewCell.swift */,
+				AD45FFE8260DC40E0014C6DC /* CustomDiscografiaTableViewCell.swift */,
+			);
+			path = banda;
+			sourceTree = "<group>";
+		};
+		AD263E07260C4E9900041E38 /* trivia */ = {
+			isa = PBXGroup;
+			children = (
+				AD263E10260C53CB00041E38 /* TriviaViewController.swift */,
+				AD263E13260C53E400041E38 /* ResultadosViewController.swift */,
+				AD45FFEB260DC42B0014C6DC /* CustomTriviaTableViewCell.swift */,
+			);
+			path = trivia;
+			sourceTree = "<group>";
+		};
+		AD263E0C260C52D100041E38 /* souvenirs */ = {
+			isa = PBXGroup;
+			children = (
+				AD263E16260C53FB00041E38 /* SouvenirsViewController.swift */,
+				AD263E19260C540F00041E38 /* CompraViewController.swift */,
+				AD45FFEE260DC45B0014C6DC /* CustomSouvenirsTableViewCell.swift */,
+				AD45FFF1260DC4790014C6DC /* CustomCompraTableViewCell.swift */,
+			);
+			path = souvenirs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +194,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD45FFF2260DC4790014C6DC /* CustomCompraTableViewCell.swift in Sources */,
+				AD263E0E260C53A900041E38 /* DiscografiaViewController.swift in Sources */,
+				AD263E11260C53CB00041E38 /* TriviaViewController.swift in Sources */,
 				AD263DF5260C2DF200041E38 /* ViewController.swift in Sources */,
 				AD263DF1260C2DF200041E38 /* AppDelegate.swift in Sources */,
+				AD45FFE9260DC40E0014C6DC /* CustomDiscografiaTableViewCell.swift in Sources */,
+				AD263E0A260C52AA00041E38 /* ProfileViewController.swift in Sources */,
+				AD263E17260C53FB00041E38 /* SouvenirsViewController.swift in Sources */,
+				AD45FFE6260DBBBE0014C6DC /* CustomTableViewCell.swift in Sources */,
+				AD263E1A260C540F00041E38 /* CompraViewController.swift in Sources */,
+				AD263E14260C53E400041E38 /* ResultadosViewController.swift in Sources */,
+				AD45FFEF260DC45B0014C6DC /* CustomSouvenirsTableViewCell.swift in Sources */,
 				AD263DF3260C2DF200041E38 /* SceneDelegate.swift in Sources */,
+				AD45FFEC260DC42B0014C6DC /* CustomTriviaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
