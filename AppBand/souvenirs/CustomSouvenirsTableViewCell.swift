@@ -9,6 +9,11 @@ import UIKit
 
 class CustomSouvenirsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var addButton: UIStepper!
+    @IBOutlet weak var cantidadLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var imageSouvenir: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +25,7 @@ class CustomSouvenirsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func changeCantidad(_ sender: UIStepper) {
+        cantidadLabel.text=String(Int(sender.value))
+    }
 }

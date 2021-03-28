@@ -16,12 +16,12 @@ var image = ""
 class ProfileViewController: UIViewController {
 
     @IBOutlet weak var discografia: UITableView!
+    @IBOutlet weak var profile: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        profile.image=UIImage(named:"profile")
         discografia.delegate=self
         discografia.dataSource=self
-        
-        // Do any additional setup after loading the view.
     }
     
     
@@ -37,22 +37,23 @@ class ProfileViewController: UIViewController {
 extension ProfileViewController:UITableViewDelegate{
     public func tableView (_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         albumToView=indexPath.row
+        image=albumsImages[indexPath.row]
         performSegue(withIdentifier: "profile", sender: nil)
     }
 }
 
 extension ProfileViewController:UITableViewDataSource{
-    public func albumTableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return albums.count
     }
     
-    public func tableView (_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell=tableView.dequeueReusableCell(withIdentifier: "albumCell", for: <#T##IndexPath#>) as! CustomTableViewCell
+    func tableView (_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell=discografia.dequeueReusableCell(withIdentifier: "albumcell", for: indexPath) as! CustomTableViewCell
         cell.index = indexPath.row
         cell.albumAnio.text=albumsAnio[indexPath.row]
         cell.albumName.text=albums[indexPath.row]
         cell.imageView?.image=UIImage(named: albumsImages[indexPath.row])
-        image=albumsImages[indexPath.row]
+        cell.imageView?.sizeToFit()
         return cell
     }
     

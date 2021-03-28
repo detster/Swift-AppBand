@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72081562261127BA008F4EA0 /* ResultadosBadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72081561261127BA008F4EA0 /* ResultadosBadViewController.swift */; };
+		72192B50260F174400EB7D8A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72192B4F260F174400EB7D8A /* LaunchViewController.swift */; };
 		AD263DF1260C2DF200041E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263DF0260C2DF200041E38 /* AppDelegate.swift */; };
 		AD263DF3260C2DF200041E38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263DF2260C2DF200041E38 /* SceneDelegate.swift */; };
 		AD263DF5260C2DF200041E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD263DF4260C2DF200041E38 /* ViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72081561261127BA008F4EA0 /* ResultadosBadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadosBadViewController.swift; sourceTree = "<group>"; };
+		72192B4F260F174400EB7D8A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		AD263DED260C2DF100041E38 /* AppBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD263DF0260C2DF200041E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD263DF2260C2DF200041E38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72192B4E260F170E00EB7D8A /* general */ = {
+			isa = PBXGroup;
+			children = (
+				72192B4F260F174400EB7D8A /* LaunchViewController.swift */,
+			);
+			path = general;
+			sourceTree = "<group>";
+		};
 		AD263DE4260C2DF100041E38 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +90,7 @@
 		AD263DEF260C2DF100041E38 /* AppBand */ = {
 			isa = PBXGroup;
 			children = (
+				72192B4E260F170E00EB7D8A /* general */,
 				AD263E0C260C52D100041E38 /* souvenirs */,
 				AD263E07260C4E9900041E38 /* trivia */,
 				AD263E05260C4E8A00041E38 /* banda */,
@@ -109,6 +122,7 @@
 				AD263E10260C53CB00041E38 /* TriviaViewController.swift */,
 				AD263E13260C53E400041E38 /* ResultadosViewController.swift */,
 				AD45FFEB260DC42B0014C6DC /* CustomTriviaTableViewCell.swift */,
+				72081561261127BA008F4EA0 /* ResultadosBadViewController.swift */,
 			);
 			path = trivia;
 			sourceTree = "<group>";
@@ -195,12 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD45FFF2260DC4790014C6DC /* CustomCompraTableViewCell.swift in Sources */,
+				72192B50260F174400EB7D8A /* LaunchViewController.swift in Sources */,
 				AD263E0E260C53A900041E38 /* DiscografiaViewController.swift in Sources */,
 				AD263E11260C53CB00041E38 /* TriviaViewController.swift in Sources */,
 				AD263DF5260C2DF200041E38 /* ViewController.swift in Sources */,
 				AD263DF1260C2DF200041E38 /* AppDelegate.swift in Sources */,
 				AD45FFE9260DC40E0014C6DC /* CustomDiscografiaTableViewCell.swift in Sources */,
 				AD263E0A260C52AA00041E38 /* ProfileViewController.swift in Sources */,
+				72081562261127BA008F4EA0 /* ResultadosBadViewController.swift in Sources */,
 				AD263E17260C53FB00041E38 /* SouvenirsViewController.swift in Sources */,
 				AD45FFE6260DBBBE0014C6DC /* CustomTableViewCell.swift in Sources */,
 				AD263E1A260C540F00041E38 /* CompraViewController.swift in Sources */,

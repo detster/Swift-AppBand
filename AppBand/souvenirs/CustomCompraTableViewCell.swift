@@ -9,6 +9,10 @@ import UIKit
 
 class CustomCompraTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imageSuvenir: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var resumeLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

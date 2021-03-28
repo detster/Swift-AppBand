@@ -9,6 +9,9 @@ import UIKit
 
 class CustomTriviaTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var pregunta: UILabel!
+    @IBOutlet weak var `switch`: UISwitch!
+    var answer:Bool = true
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +23,7 @@ class CustomTriviaTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func respuesta(_ sender: UISwitch) {
+        answer = !answer
+    }
 }
