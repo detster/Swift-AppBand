@@ -11,7 +11,7 @@ let souvenirsItems = ["1_blanco_y_negro","2_alma_en_fuego","3_unidad_cerveza_ska
 let prices =
     [100.00,200.00,300.00,400.00,500.00,300.00,200.00,100.00]
 let souvenirsNames =
-    ["Disco 1","Disco 2","Disco 3","Disco 4","Disco 5","Disco 6","Disco 7","Disco 8"]
+    ["Vinil Blanco y Negro","Vinil Alma en Fuego","Vinil UCK","Live Amar o Morir","Inspector Album","Disco 6","Disco 7","Disco 8"]
 
 class SouvenirsViewController: UIViewController {
 

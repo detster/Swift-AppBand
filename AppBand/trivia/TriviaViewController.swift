@@ -7,7 +7,7 @@
 
 import UIKit
 
-let questions = ["Inspector es Real?","Inspector lleva 36500 dias existiendo?","Tocan Rock?","Tienen piano?"]
+let questions = ["Big Javi es el vocalista?","Inspector nacio en 1996?","Su ultimo album es Paginas en blanco?","Tocan Rock?"]
 let questionsResults = [true,false,true,true]
 var resultToSend = true
 class TriviaViewController: UIViewController {
